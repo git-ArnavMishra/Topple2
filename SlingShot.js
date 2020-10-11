@@ -6,7 +6,7 @@ class SlingShot{
             stiffness: 0.1,
             length: 10
         }
-        //this.sling1 = loadImage('sprites/sling1.png');
+        //this.sling1 = loadImage('Sprites/sling1.png');
         this.pointB = pointB;
         this.sling = Constraint.create(options);
         World.add(world, this.sling);
