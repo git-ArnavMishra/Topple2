@@ -1,7 +1,7 @@
 class Block extends BaseClass {
     constructor(x, y, width, height){
       super(x,y,width,height);
-      this.image = loadImage("sprites/box.png");
+      this.image = loadImage("Sprites/box.png");
       this.visibility = 255;
       this.visible = true;
     }
